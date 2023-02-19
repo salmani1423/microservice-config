@@ -1,1 +1,14 @@
+spring:
+  application:
+    name: CONFIG-DEV
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZode: http://localost:8761/eureka
 
